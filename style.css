@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content:center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+#Info_Cont1, #Info_Cont2 {
+    margin-top: 20px; /* Add some space between the bars and the info sections */
+    text-align: center; /* Center the text, adjust as needed */
+}
+
+.Complexity_Containers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.Pair_Definitions {
+    margin: 0 15px;
+}
+
+.Sub_Heading {
+    font-weight: bold;
+}
+
+#bars {
+    margin-bottom: 30px; /* Add some space between the bars and the info sections */
+}
+
+.newArray {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.newArray:hover{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.selectionSort {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.insertionSort{
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.mergeSort{
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.quickSort {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.bubbleSort {
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.bubbleSort:hover {
+    background-color: #007bff;
+    color: white;              
+    border-color: #007bff;      
+}
+
+.flex-item {
+    transition: height 0.3s ease-in-out; /* Smooth height transition */
+}
+
